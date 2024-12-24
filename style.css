@@ -1,0 +1,35 @@
+.photo {
+    border-radius: 100px;
+    border: 10px solid transparent;
+    box-shadow: 0 4px 20px 0px rgba(119, 17, 17, 0.52);
+  object-fit: cover;
+}
+body {
+    font-family: Roboto, sans-serif;
+  }
+  
+.container {
+    padding: 0 40px;
+    margin-left: 20px;}
+    a {
+        display: block;
+        text-decoration:none;
+        margin-bottom: 1.2em;
+        position: relative;
+      }
+      a:hover {
+        color:#d8b713fd;
+      }
+      a::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        transform: translateY(1.5em);
+        border-bottom: 1px solid #b12d2d;
+        width: 300px;
+      }
+       /* Эффект наведения на картинку */
+.photo:hover {
+    border: 10px solid #7b61c9;
+  }
